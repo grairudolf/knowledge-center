@@ -107,7 +107,7 @@ export const articles: Article[] = [
     author: {
       name: "Happi Yongwoua Franklyn Benis",
       role: "KC Scholar, Knowledge Center Cameroon",
-      initials: "HF",
+      avatar: "/articles/authors/happi-franklyn.jpg",
       bio:
         "Happi Yongwoua Franklyn Benis is a high school graduate from Ecole Sonara in Limbe, Cameroon, with a strong interest in cybersecurity and digital forensics. A National Honours Scholar, he graduated from high school with straight As at the GCE A/L and was named valedictorian of his class. He is a curious and methodical learner who enjoys exploring how technology works and understanding the challenges that come with its use. His research on online scams and digital security in Limbe reflects his interest in applying his knowledge to real-world challenges and helping communities become more aware of online risks.",
     },
