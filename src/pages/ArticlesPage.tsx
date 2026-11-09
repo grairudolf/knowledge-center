@@ -1,12 +1,9 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
-import { ArrowRight, ArrowUpRight, BookOpen, Globe2, PenLine } from "lucide-react";
+import { ArrowUpRight, BookOpen, Globe2, PenLine } from "lucide-react";
 import "@/styles/articles.css";
-import ArticleByline from "@/components/articles/ArticleByline";
 import ArticleCard from "@/components/articles/ArticleCard";
 import {
-  estimateReadingTime,
   getArticleCategories,
   getPublishedArticles,
 } from "@/data/articles";
@@ -46,16 +43,9 @@ const ArticlesPage: React.FC = () => {
   const publishedArticles = React.useMemo(() => getPublishedArticles(), []);
   const categories = React.useMemo(() => getArticleCategories(), []);
 
-  const featured =
-    publishedArticles.find((article) => article.featured) ?? publishedArticles[0];
-
-  const remaining = publishedArticles.filter(
-    (article) => article.slug !== featured?.slug,
-  );
-
   const filtered =
     activeCategory === "All"
-      ? remaining
+      ? publishedArticles
       : publishedArticles.filter(
           (article) => article.category === activeCategory,
         );
@@ -119,87 +109,20 @@ const ArticlesPage: React.FC = () => {
         </div>
       </section>
 
-      {/* Featured article */}
-      {featured ? (
-        <motion.section
-          {...fadeUp}
-          className="container mx-auto max-w-6xl px-5 pt-12 md:pt-16 lg:px-8"
-        >
-          <div className="mb-5 flex items-center gap-5">
-            <p className="kc-eyebrow text-kc-blue">Featured</p>
-            <span className="h-px flex-1 bg-article-rule" aria-hidden="true" />
-          </div>
-
-          <Link
-            to={`/articles/${featured.slug}`}
-            className="group grid overflow-hidden border border-article-rule bg-white text-article-ink no-underline transition-colors duration-300 hover:border-article-rule-strong lg:grid-cols-[1.08fr_1fr]"
-          >
-            <div className="relative min-h-[280px] overflow-hidden bg-article-cream md:min-h-[380px]">
-              {featured.cover ? (
-                <div className="kc-image-zoom h-full w-full">
-                  <img
-                    src={featured.cover.src}
-                    alt={featured.cover.alt}
-                    className="h-full w-full object-cover"
-                    decoding="async"
-                  />
-                </div>
-              ) : (
-                <div className="flex h-full min-h-[280px] items-end p-8">
-                  <span className="font-article-display text-6xl italic leading-none text-kc-blue/30">
-                    {featured.category}
-                  </span>
-                </div>
-              )}
-            </div>
-
-            <div className="flex flex-col justify-center p-6 sm:p-9 lg:p-11">
-              <div className="flex flex-wrap items-center gap-x-3 gap-y-1">
-                <span className="font-article-ui text-[0.67rem] font-semibold uppercase tracking-[0.18em] text-kc-blue">
-                  {featured.category}
-                </span>
-              </div>
-
-              <h2 className="mt-4 font-article-display text-[clamp(2rem,4vw,3.1rem)] font-medium leading-[1.04] tracking-[-0.035em] text-article-ink transition-colors duration-300 group-hover:text-kc-blue">
-                {featured.title}
-              </h2>
-
-              <p className="mt-5 line-clamp-4 font-article-body text-base leading-relaxed text-article-muted md:text-lg">
-                {featured.summary}
-              </p>
-
-              <div className="mt-7">
-                <ArticleByline
-                  author={featured.author}
-                  publishedAt={featured.publishedAt}
-                  readingTime={estimateReadingTime(featured)}
-                />
-              </div>
-
-              <span className="mt-8 inline-flex items-center gap-2 font-article-ui text-sm font-semibold text-kc-blue">
-                Read the article
-                <ArrowRight
-                  className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-1"
-                  aria-hidden="true"
-                />
-              </span>
-            </div>
-          </Link>
-        </motion.section>
-      ) : null}
-
-      {/* Latest articles — hidden when the only piece is already featured above */}
-      {remaining.length > 0 || publishedArticles.length === 0 ? (
-        <section className="container mx-auto max-w-6xl px-5 py-14 md:py-20 lg:px-8">
-          <div className="flex flex-col gap-6 border-b border-article-rule pb-4 sm:flex-row sm:items-end sm:justify-between">
+      {/* All articles — every piece is displayed with equal weight */}
+      <motion.section
+        {...fadeUp}
+        className="container mx-auto max-w-6xl px-5 pt-12 pb-14 md:pt-16 md:pb-20 lg:px-8"
+      >
+        <div className="flex flex-col gap-6 border-b border-article-rule pb-4 sm:flex-row sm:items-end sm:justify-between">
             <div>
               <p className="kc-eyebrow text-kc-blue">The journal</p>
               <h2 className="mt-2 font-article-display text-3xl font-medium tracking-[-0.03em] text-article-ink md:text-4xl">
-                Latest articles
+                All articles
               </h2>
             </div>
 
-            {remaining.length > 0 ? (
+            {publishedArticles.length > 0 ? (
               <div className="flex flex-wrap gap-x-5 gap-y-2" role="group" aria-label="Filter articles by topic">
                 {["All", ...categories].map((category) => {
                   const active = activeCategory === category;
@@ -252,8 +175,7 @@ const ArticlesPage: React.FC = () => {
               ))}
             </div>
           )}
-        </section>
-      ) : null}
+        </motion.section>
 
       {/* Editorial pillars */}
       <section className="border-y border-article-rule bg-article-cream/60">
