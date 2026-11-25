@@ -111,11 +111,14 @@ const ArticleBody: React.FC<ArticleBodyProps> = ({ blocks, headingIds }) => (
 
         case "image":
           return (
-            <figure key={index} className="my-10">
+            <figure
+              key={index}
+              className={`my-10 ${block.size === "small" ? "kc-inline-figure--small" : ""}`}
+            >
               <ArticleImage
                 src={block.src}
                 alt={block.alt}
-                className="kc-inline-image"
+                className={`kc-inline-image ${block.size === "small" ? "kc-inline-image--small" : ""}`}
               />
               {(block.caption || block.credit) && (
                 <figcaption className="mt-3 flex flex-col gap-1 text-[0.78rem] leading-relaxed text-article-muted sm:flex-row sm:items-baseline sm:justify-between">

@@ -314,6 +314,23 @@
   border: 1px solid var(--kc-rule);
 }
 
+/* Compact graphics (e.g. registration QR codes) stay scannable, not full-bleed. */
+.kc-article-prose .kc-inline-figure--small {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.kc-article-prose .kc-inline-image--small {
+  width: min(15rem, 70%);
+  background: #fff;
+}
+
+.kc-article-prose .kc-inline-figure--small figcaption {
+  justify-content: center;
+  text-align: center;
+}
+
 /* Shown while an editor is still choosing the photograph for an image slot. */
 .kc-image-placeholder {
   display: flex;

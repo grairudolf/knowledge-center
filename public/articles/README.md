@@ -102,6 +102,8 @@ references: [
 - Compress images before uploading (aim for under 400 KB each).
 - Write real `alt` text for every image.
 - Keep cover images wide (16:10 works best).
+- For QR codes and other compact graphics, add `size: "small"` to the image
+  block so it stays centred and scannable instead of stretching full width.
 
 ## Editorial posts ("KC stories")
 

@@ -37,6 +37,8 @@ export type ArticleImage = {
   alt: string;
   caption?: string;
   credit?: string;
+  /** Use "small" for compact graphics such as QR codes. */
+  size?: "small";
 };
 
 export type ArticleBlock =
@@ -506,6 +508,7 @@ export const articles: Article[] = [
         alt: "QR code to register for the KC National STEM Olympiad 2026.",
         caption: "Scan this code to register for STEM 2026.",
         credit: "Knowledge Center",
+        size: "small",
       },
       {
         type: "callout",
