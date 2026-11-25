@@ -14,7 +14,7 @@ import { useSeo } from "@/hooks/useSeo";
  * - Proper image alt text with context
  * 
  * Design:
- * - Montserrat body text, Poppins headings
+ * - Poppins throughout, with weight for hierarchy
  * - Blue/red accent colors
  * - Consistent spacing and section padding
  * - Smooth fade-in animation

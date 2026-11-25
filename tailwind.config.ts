@@ -18,15 +18,15 @@ export default {
 			}
 		},
 		extend: {
-			/* Typography System: Poppins for headings (h1-h6), Montserrat for body/ui text */
+			/* Typography System: Poppins everywhere, with weight doing the hierarchy work */
 			fontFamily: {
-				'sans': ['Montserrat', 'system-ui', 'Segoe UI', 'sans-serif'],
+				'sans': ['Poppins', 'system-ui', 'Segoe UI', 'sans-serif'],
 				'heading': ['Poppins', 'system-ui', 'Segoe UI', 'sans-serif'],
-				'body': ['Montserrat', 'system-ui', 'Segoe UI', 'sans-serif'],
-				/* Editorial type used only by the KC Articles section */
-				'article-display': ['Newsreader', 'Georgia', 'Times New Roman', 'serif'],
-				'article-body': ['Source Serif 4', 'Georgia', 'Times New Roman', 'serif'],
-				'article-ui': ['Inter', 'system-ui', 'Segoe UI', 'sans-serif'],
+				'body': ['Poppins', 'system-ui', 'Segoe UI', 'sans-serif'],
+				/* Articles share the same family; weights and italics create contrast */
+				'article-display': ['Poppins', 'system-ui', 'Segoe UI', 'sans-serif'],
+				'article-body': ['Poppins', 'system-ui', 'Segoe UI', 'sans-serif'],
+				'article-ui': ['Poppins', 'system-ui', 'Segoe UI', 'sans-serif'],
 			},
 			fontSize: {
 				/* Semantic heading scale: 96/80/64/48/36/24/20/16/14/12px */

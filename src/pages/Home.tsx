@@ -19,8 +19,7 @@ import { BookOpen, Microscope, Rocket, Users } from "lucide-react";
  * - Structured data for rich snippets
  * 
  * Design:
- * - Montserrat font for body text
- * - Poppins font for headings
+ * - Poppins font throughout the page
  * - Blue, red, black color palette
  * - Consistent spacing and whitespace
  * - Smooth fade-up animations

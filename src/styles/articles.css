@@ -1,56 +1,15 @@
 /* ==========================================================================
    KC Articles — editorial design system
    --------------------------------------------------------------------------
-   This stylesheet is loaded only by the /articles routes. It deliberately
-   steps away from the site's Montserrat/Poppins UI type to give long-form
-   writing its own voice:
+   Poppins is used across the whole site, including the journal. Weight and
+   italics do the work that a second family used to do:
 
-     Display / headlines : Newsreader   (serif)
-     Body / long-form    : Source Serif 4 (serif)
-     Meta / interface    : Inter        (grotesque sans)
+     Display / headlines : Poppins 700–800
+     Body / long-form    : Poppins 400 (600 for emphasis, 700 for bold)
+     Meta / interface    : Poppins 500–600
 
-   All three families are self-hosted in /public/fonts.
+   The self-hosted variable font is declared once in index.css.
    ========================================================================== */
-
-@font-face {
-  font-family: "Newsreader";
-  src: url("/fonts/newsreader.woff2") format("woff2");
-  font-weight: 200 800;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Newsreader";
-  src: url("/fonts/newsreader-italic.woff2") format("woff2");
-  font-weight: 200 800;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Source Serif 4";
-  src: url("/fonts/source-serif-4.woff2") format("woff2");
-  font-weight: 200 900;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Source Serif 4";
-  src: url("/fonts/source-serif-4-italic.woff2") format("woff2");
-  font-weight: 200 900;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Inter";
-  src: url("/fonts/inter.woff2") format("woff2");
-  font-weight: 100 900;
-  font-style: normal;
-  font-display: swap;
-}
 
 .kc-articles {
   --kc-paper: #fbfaf7;
@@ -62,9 +21,9 @@
   --kc-rule-strong: #cfc8b9;
   --kc-accent: hsl(var(--kc-blue));
   --kc-accent-dark: hsl(var(--kc-blue-dark));
-  --kc-font-display: "Newsreader", Georgia, "Times New Roman", serif;
-  --kc-font-body: "Source Serif 4", Georgia, "Times New Roman", serif;
-  --kc-font-ui: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --kc-font-display: "Poppins", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --kc-font-body: "Poppins", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --kc-font-ui: "Poppins", system-ui, -apple-system, "Segoe UI", sans-serif;
 
   background-color: var(--kc-paper);
   color: var(--kc-ink);
@@ -79,18 +38,17 @@
   color: var(--kc-ink);
 }
 
-/* Headings inside the journal keep the editorial voice, not the site voice. */
+/* Headings use Poppins weight for hierarchy instead of a second typeface. */
 .kc-articles :where(h1, h2, h3, h4, h5, h6) {
   font-family: var(--kc-font-display);
   color: var(--kc-ink);
-  font-weight: 500;
+  font-weight: 700;
   letter-spacing: -0.02em;
-  line-height: 1.1;
+  line-height: 1.15;
 }
 
 .kc-ui {
   font-family: var(--kc-font-ui);
-  font-feature-settings: "cv11", "ss01";
 }
 
 /* Keep the Tailwind font utilities authoritative inside the journal. */
@@ -108,9 +66,9 @@
 
 .kc-display {
   font-family: var(--kc-font-display);
-  font-weight: 500;
+  font-weight: 700;
   letter-spacing: -0.025em;
-  line-height: 1.04;
+  line-height: 1.08;
   color: var(--kc-ink);
 }
 
@@ -130,38 +88,38 @@
 
 .kc-masthead-title {
   font-family: var(--kc-font-display);
-  font-size: clamp(3.1rem, 8.5vw, 6.2rem);
-  font-weight: 500;
-  letter-spacing: -0.045em;
-  line-height: 0.94;
+  font-size: clamp(2.8rem, 7.5vw, 5.4rem);
+  font-weight: 800;
+  letter-spacing: -0.04em;
+  line-height: 1.02;
   color: var(--kc-ink);
 }
 
 .kc-article-title {
   font-family: var(--kc-font-display);
-  font-size: clamp(2.35rem, 5.6vw, 4.35rem);
-  font-weight: 500;
-  letter-spacing: -0.035em;
-  line-height: 1.04;
+  font-size: clamp(2.1rem, 5vw, 3.75rem);
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  line-height: 1.1;
   color: var(--kc-ink);
   text-wrap: balance;
 }
 
 .kc-card-title {
   font-family: var(--kc-font-display);
-  font-size: clamp(1.45rem, 2.4vw, 2rem);
-  font-weight: 500;
-  letter-spacing: -0.025em;
-  line-height: 1.14;
+  font-size: clamp(1.3rem, 2.2vw, 1.75rem);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  line-height: 1.18;
   color: var(--kc-ink);
   text-wrap: balance;
 }
 
 .kc-dek {
   font-family: var(--kc-font-body);
-  font-size: clamp(1.125rem, 1.8vw, 1.375rem);
+  font-size: clamp(1rem, 1.6vw, 1.2rem);
   font-weight: 400;
-  line-height: 1.6;
+  line-height: 1.55;
   color: var(--kc-muted);
 }
 
@@ -171,16 +129,16 @@
 
 .kc-article-prose {
   font-family: var(--kc-font-body);
-  font-size: 1.0625rem;
-  line-height: 1.78;
+  font-size: 1rem;
+  line-height: 1.75;
   color: var(--kc-ink-soft);
   font-optical-sizing: auto;
 }
 
 @media (min-width: 768px) {
   .kc-article-prose {
-    font-size: 1.1875rem;
-    line-height: 1.8;
+    font-size: 1.0625rem;
+    line-height: 1.78;
   }
 }
 
@@ -200,8 +158,8 @@
   .kc-article-prose > p.kc-opening::first-letter {
     float: left;
     font-family: var(--kc-font-display);
-    font-size: 4.15em;
-    font-weight: 500;
+    font-size: 3.4em;
+    font-weight: 700;
     line-height: 0.78;
     padding: 0.09em 0.12em 0 0;
     color: var(--kc-accent);
@@ -210,8 +168,8 @@
 
 .kc-article-prose h2 {
   font-family: var(--kc-font-display);
-  font-size: clamp(1.7rem, 3.2vw, 2.15rem);
-  font-weight: 600;
+  font-size: clamp(1.5rem, 2.8vw, 1.9rem);
+  font-weight: 700;
   letter-spacing: -0.025em;
   line-height: 1.18;
   color: var(--kc-ink);
@@ -221,8 +179,8 @@
 
 .kc-article-prose h3 {
   font-family: var(--kc-font-display);
-  font-size: clamp(1.35rem, 2.4vw, 1.6rem);
-  font-weight: 600;
+  font-size: clamp(1.2rem, 2.1vw, 1.4rem);
+  font-weight: 700;
   letter-spacing: -0.015em;
   line-height: 1.3;
   color: var(--kc-ink);
@@ -240,8 +198,10 @@
   color: var(--kc-ink);
 }
 
-.kc-article-prose em {
+.kc-article-prose em,
+.kc-article-prose i {
   font-style: italic;
+  font-synthesis: style;
 }
 
 .kc-article-prose a {
@@ -326,9 +286,9 @@
 
 .kc-article-prose blockquote p {
   font-family: var(--kc-font-display);
-  font-size: clamp(1.5rem, 3vw, 1.95rem);
+  font-size: clamp(1.25rem, 2.5vw, 1.6rem);
   font-style: italic;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 1.32;
   letter-spacing: -0.015em;
   color: var(--kc-ink);
