@@ -111,9 +111,13 @@ as the avatar. Each has one cover and three in-body image slots:
 
 | Slug in `src/data/articles.ts` | Image files to add |
 | --- | --- |
-| `from-stem-olympiad-to-mit` | `covers/from-stem-olympiad-to-mit.jpg`; `inline/from-stem-olympiad-to-mit-1.jpg`, `-2.jpg`, `-3.jpg` |
+| `from-stem-olympiad-to-mit` | Cover: `cover.avif` (supplied, credited to Heterodox Academy). Still to add: `inline/from-stem-olympiad-to-mit-1.jpg`, `-2.jpg`, `-3.jpg` |
 | `the-pygmalion-effect-and-the-power-of-belief` | `covers/the-pygmalion-effect.jpg`; `inline/the-pygmalion-effect-1.jpg`, `-2.jpg`, `-3.jpg` |
 | `is-the-system-holding-them-back` | `covers/is-the-system-holding-them-back.jpg`; `inline/is-the-system-holding-them-back-1.jpg`, `-2.jpg`, `-3.jpg` |
+
+The MIT cover photo comes from
+[Heterodox Academy](https://heterodoxacademy.org/campuses/massachusetts-institute-of-technology/);
+the credit appears under the image and in the article's references.
 
 Until a photo is added at one of those paths, the page shows a labelled
 placeholder frame rather than a broken image. Drop your chosen images into
