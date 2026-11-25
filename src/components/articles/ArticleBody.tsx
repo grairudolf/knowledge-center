@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { ArrowUpRight, FileText } from "lucide-react";
+import ArticleImage from "@/components/articles/ArticleImage";
 import type { ArticleBlock } from "@/data/articles";
 
 const INLINE_PATTERN =
@@ -111,11 +112,9 @@ const ArticleBody: React.FC<ArticleBodyProps> = ({ blocks, headingIds }) => (
         case "image":
           return (
             <figure key={index} className="my-10">
-              <img
+              <ArticleImage
                 src={block.src}
                 alt={block.alt}
-                loading="lazy"
-                decoding="async"
                 className="kc-inline-image"
               />
               {(block.caption || block.credit) && (

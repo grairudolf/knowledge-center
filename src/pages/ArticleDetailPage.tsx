@@ -11,6 +11,7 @@ import {
 } from "lucide-react";
 import "@/styles/articles.css";
 import ArticleBody from "@/components/articles/ArticleBody";
+import ArticleImage from "@/components/articles/ArticleImage";
 import ArticleByline, { AuthorAvatar } from "@/components/articles/ArticleByline";
 import ArticleCard from "@/components/articles/ArticleCard";
 import {
@@ -235,11 +236,11 @@ const ArticleDetailPage: React.FC = () => {
           transition={{ duration: 0.5, delay: 0.1, ease: [0.22, 1, 0.36, 1] }}
           className="container mx-auto mt-10 max-w-6xl px-5 lg:px-8"
         >
-          <img
+          <ArticleImage
             src={article.cover.src}
             alt={article.cover.alt}
+            loading="eager"
             className="max-h-[640px] w-full border border-article-rule bg-article-cream object-cover"
-            decoding="async"
           />
           {article.cover.caption || article.cover.credit ? (
             <figcaption className="mt-3 flex flex-col gap-1 font-article-ui text-[0.78rem] leading-relaxed text-article-muted sm:flex-row sm:items-baseline sm:justify-between">

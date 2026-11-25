@@ -102,3 +102,20 @@ references: [
 - Compress images before uploading (aim for under 400 KB each).
 - Write real `alt` text for every image.
 - Keep cover images wide (16:10 works best).
+
+## Editorial posts ("KC stories")
+
+Three shorter, editorial pieces sit alongside the research notes. They are
+credited to **The KC editorial team**, using `authors/kc-editorial-team.png`
+as the avatar. Each has one cover and three in-body image slots:
+
+| Slug in `src/data/articles.ts` | Image files to add |
+| --- | --- |
+| `from-stem-olympiad-to-mit` | `covers/from-stem-olympiad-to-mit.jpg`; `inline/from-stem-olympiad-to-mit-1.jpg`, `-2.jpg`, `-3.jpg` |
+| `the-pygmalion-effect-and-the-power-of-belief` | `covers/the-pygmalion-effect.jpg`; `inline/the-pygmalion-effect-1.jpg`, `-2.jpg`, `-3.jpg` |
+| `is-the-system-holding-them-back` | `covers/is-the-system-holding-them-back.jpg`; `inline/is-the-system-holding-them-back-1.jpg`, `-2.jpg`, `-3.jpg` |
+
+Until a photo is added at one of those paths, the page shows a labelled
+placeholder frame rather than a broken image. Drop your chosen images into
+the folders above using those filenames, or update the `src` values in
+`src/data/articles.ts` to match the files you pick.

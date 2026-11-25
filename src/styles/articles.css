@@ -354,6 +354,40 @@
   border: 1px solid var(--kc-rule);
 }
 
+/* Shown while an editor is still choosing the photograph for an image slot. */
+.kc-image-placeholder {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 0.4rem;
+  width: 100%;
+  min-height: 17rem;
+  aspect-ratio: 16 / 9;
+  padding: 1.25rem 1.4rem;
+  border: 1px dashed var(--kc-rule-strong);
+  background:
+    radial-gradient(circle at 15% 15%, hsl(var(--kc-blue) / 0.06), transparent 45%),
+    var(--kc-paper-deep);
+}
+
+.kc-image-placeholder__label {
+  font-family: var(--kc-font-ui);
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  line-height: 1.4;
+  text-transform: uppercase;
+  color: var(--kc-accent);
+}
+
+.kc-image-placeholder__alt {
+  max-width: 46ch;
+  font-family: var(--kc-font-body);
+  font-size: 1rem;
+  line-height: 1.5;
+  color: var(--kc-muted);
+}
+
 /* --------------------------------------------------------------------------
    Downloadable report card
    -------------------------------------------------------------------------- */
