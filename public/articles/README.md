@@ -109,17 +109,18 @@ Three shorter, editorial pieces sit alongside the research notes. They are
 credited to **The KC editorial team**, using `authors/kc-editorial-team.png`
 as the avatar. Each has one cover and three in-body image slots:
 
-| Slug in `src/data/articles.ts` | Image files to add |
+| Slug in `src/data/articles.ts` | Images used |
 | --- | --- |
-| `from-stem-olympiad-to-mit` | Cover: `cover.avif` (supplied, credited to Heterodox Academy). Still to add: `inline/from-stem-olympiad-to-mit-1.jpg`, `-2.jpg`, `-3.jpg` |
-| `the-pygmalion-effect-and-the-power-of-belief` | `covers/the-pygmalion-effect.jpg`; `inline/the-pygmalion-effect-1.jpg`, `-2.jpg`, `-3.jpg` |
-| `is-the-system-holding-them-back` | `covers/is-the-system-holding-them-back.jpg`; `inline/is-the-system-holding-them-back-1.jpg`, `-2.jpg`, `-3.jpg` |
+| `from-stem-olympiad-to-mit` | Cover: `cover.avif` (supplied, credited to Heterodox Academy). Inline: `inline/stem-olympiad-award.jpg`, `stem-scholars-celebration.jpeg`, `future-ready-stem-leaders.jpeg` |
+| `the-pygmalion-effect-and-the-power-of-belief` | Cover: `covers/the-1968-experiment.jpeg`. Inline: `inline/weekend-lecture-hall.jpeg`, `kc-scholars-group.jpeg`, `kc-scholars-confidence.jpeg` |
+| `is-the-system-holding-them-back` | Cover: `covers/the-school-system-has-expired.jpeg`. Inline: `inline/traditional-classroom.jpg`, `hands-on-electronics.jpeg`, `student-project-exhibition.jpeg` |
 
 The MIT cover photo comes from
 [Heterodox Academy](https://heterodoxacademy.org/campuses/massachusetts-institute-of-technology/);
-the credit appears under the image and in the article's references.
+the credit appears under the image and in the article's references. All other
+images come from the project's existing KC photo library.
 
-Until a photo is added at one of those paths, the page shows a labelled
-placeholder frame rather than a broken image. Drop your chosen images into
-the folders above using those filenames, or update the `src` values in
-`src/data/articles.ts` to match the files you pick.
+Every cover and inline slot is now filled. If you prefer a different photo,
+replace the file under the same name or update the `src` value in
+`src/data/articles.ts`. If a file is ever missing, the page shows a labelled
+placeholder frame instead of a broken image.

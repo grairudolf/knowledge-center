@@ -411,10 +411,10 @@ export const articles: Article[] = [
       },
       {
         type: "image",
-        src: "/articles/inline/from-stem-olympiad-to-mit-1.jpg",
-        alt: "Students working through a problem at a KC STEM Olympiad event.",
+        src: "/articles/inline/stem-olympiad-award.jpg",
+        alt: "A young student holding a large KC STEM Olympiad award cheque beside two adults under Knowledge Center banners.",
         caption:
-          "The Olympiad asks students to use classroom science in ways they have not tried before.",
+          "An Olympiad laureate with an award — the recognition is real, but the confidence it builds lasts longer.",
         credit: "Knowledge Center",
       },
       { type: "heading", level: 2, text: "A spark that becomes a direction" },
@@ -448,10 +448,10 @@ export const articles: Article[] = [
       },
       {
         type: "image",
-        src: "/articles/inline/from-stem-olympiad-to-mit-2.jpg",
-        alt: "A KC STEM scholar celebrating an achievement with peers and mentors.",
+        src: "/articles/inline/stem-scholars-celebration.jpeg",
+        alt: "A group of students holding certificates and oversized award cheques at a KC STEM and Global Scholars celebration.",
         caption:
-          "Recognition matters, but the lasting value of the Olympiad is the confidence it builds.",
+          "Laureates celebrated at a KC event — proof of what the right educational experience can unlock.",
         credit: "Knowledge Center",
       },
       { type: "heading", level: 2, text: "Cameroonians can compete globally" },
@@ -478,10 +478,10 @@ export const articles: Article[] = [
       },
       {
         type: "image",
-        src: "/articles/inline/from-stem-olympiad-to-mit-3.jpg",
-        alt: "KC students listening to a speaker at a STEM community event.",
+        src: "/articles/inline/future-ready-stem-leaders.jpeg",
+        alt: "Two students in uniform holding awards beneath a Future-ready STEM Leaders banner.",
         caption:
-          "A community of scholars, mentors and possibility — the story behind every Olympiad result.",
+          "A community of scholars and mentors is the story behind every Olympiad result.",
         credit: "Knowledge Center",
       },
       { type: "heading", level: 2, text: "Join the next cohort" },
@@ -521,10 +521,10 @@ export const articles: Article[] = [
     },
     publishedAt: "2026-11-20T09:00:00.000Z",
     cover: {
-      src: "/articles/covers/the-pygmalion-effect.jpg",
-      alt: "A teacher speaking with a student in a classroom.",
+      src: "/articles/covers/the-1968-experiment.jpeg",
+      alt: "A KC mentor standing with five students in blue Knowledge Center polos outdoors.",
       caption:
-        "Small acts of belief from a teacher can change the way a student sees their own future.",
+        "Close mentorship is at the centre of the KC experience.",
       credit: "Knowledge Center",
     },
     content: [
@@ -556,10 +556,10 @@ export const articles: Article[] = [
       },
       {
         type: "image",
-        src: "/articles/inline/the-pygmalion-effect-1.jpg",
-        alt: "A classroom scene with students working in small groups.",
+        src: "/articles/inline/weekend-lecture-hall.jpeg",
+        alt: "A packed lecture hall with students seated at wooden desks and an instructor standing at the front.",
         caption:
-          "The study asked whether a teacher's belief could change a student's results.",
+          "The 1968 study began in an ordinary classroom — and asked an extraordinary question.",
         credit: "Knowledge Center",
       },
       { type: "heading", level: 2, text: "What the researchers reported" },
@@ -610,8 +610,8 @@ export const articles: Article[] = [
       },
       {
         type: "image",
-        src: "/articles/inline/the-pygmalion-effect-2.jpg",
-        alt: "A mentor speaking closely with a young learner.",
+        src: "/articles/inline/kc-scholars-group.jpeg",
+        alt: "Six young people in Knowledge Center polos smiling together outdoors.",
         caption:
           "Attention, encouragement and mentorship are the practical forms that belief takes.",
         credit: "Knowledge Center",
@@ -640,10 +640,10 @@ export const articles: Article[] = [
       },
       {
         type: "image",
-        src: "/articles/inline/the-pygmalion-effect-3.jpg",
-        alt: "Members of the KC community gathered together in conversation.",
+        src: "/articles/inline/kc-scholars-confidence.jpeg",
+        alt: "Two young women in matching red Knowledge Center polos smiling confidently at the camera.",
         caption:
-          "A scholarly community built on encouragement changes what students believe they can become.",
+          "Confident, capable learners — the kind of students KC is working to nurture.",
         credit: "Knowledge Center",
       },
       { type: "heading", level: 2, text: "The 2040 dream" },
@@ -680,10 +680,10 @@ export const articles: Article[] = [
     },
     publishedAt: "2026-11-18T09:00:00.000Z",
     cover: {
-      src: "/articles/covers/is-the-system-holding-them-back.jpg",
-      alt: "A student working independently with digital learning tools.",
+      src: "/articles/covers/the-school-system-has-expired.jpeg",
+      alt: "A teacher lecturing at the front of a traditional classroom with students seated in rows facing a projector.",
       caption:
-        "Learning tools now allow young people to move at their own pace — if schools let them.",
+        "The classroom model built for the 1800s is still with us — but the world around it has changed.",
       credit: "Knowledge Center",
     },
     content: [
@@ -719,10 +719,10 @@ export const articles: Article[] = [
       },
       {
         type: "image",
-        src: "/articles/inline/is-the-system-holding-them-back-1.jpg",
-        alt: "A young person learning independently with books and a laptop.",
+        src: "/articles/inline/traditional-classroom.jpg",
+        alt: "Students seated in rows at wooden desks, listening to a teacher at the front of the room.",
         caption:
-          "For some learners, the right environment looks nothing like a traditional classroom.",
+          "One pace, one lesson, one measure of ability — the model Kairan's parents walked away from.",
         credit: "Knowledge Center",
       },
       { type: "heading", level: 2, text: "A system built for averages" },
@@ -767,10 +767,10 @@ export const articles: Article[] = [
       },
       {
         type: "image",
-        src: "/articles/inline/is-the-system-holding-them-back-2.jpg",
-        alt: "A student using a laptop to explore a topic independently.",
+        src: "/articles/inline/hands-on-electronics.jpeg",
+        alt: "A student working on a hands-on electronics project with a solar panel, breadboard and laptop.",
         caption:
-          "AI-assisted tools make self-paced, personalised learning available to far more students than before.",
+          "Hands-on projects let young people learn by building and testing, not just recalling.",
         credit: "Knowledge Center",
       },
       { type: "heading", level: 2, text: "What learning should look like" },
@@ -792,10 +792,10 @@ export const articles: Article[] = [
       },
       {
         type: "image",
-        src: "/articles/inline/is-the-system-holding-them-back-3.jpg",
-        alt: "Students and a mentor working through a concept together.",
+        src: "/articles/inline/student-project-exhibition.jpeg",
+        alt: "Students presenting a solar panel and a small wind turbine model at a STEM event.",
         caption:
-          "Technology works best when it is paired with mentors who know how to stretch a learner.",
+          "Better tools and mentors who stretch them — the opportunity more students need.",
         credit: "Knowledge Center",
       },
       { type: "heading", level: 2, text: "A better question" },
