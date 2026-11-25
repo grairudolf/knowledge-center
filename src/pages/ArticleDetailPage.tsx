@@ -5,6 +5,7 @@ import {
   ArrowLeft,
   ArrowRight,
   ArrowUpRight,
+  Facebook,
   Link2,
   Linkedin,
   Share2,
@@ -165,6 +166,9 @@ const ArticleDetailPage: React.FC = () => {
   const linkedInShare = `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(
     shareUrl,
   )}`;
+  const facebookShare = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(
+    shareUrl,
+  )}`;
 
   return (
     <div className="kc-articles min-h-screen pt-6">
@@ -291,6 +295,15 @@ const ArticleDetailPage: React.FC = () => {
                     <Link2 className="h-3.5 w-3.5" />
                   </button>
                   <a
+                    href={facebookShare}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Share on Facebook"
+                    className="flex h-8 w-8 items-center justify-center border border-article-rule text-article-muted no-underline transition-colors hover:border-kc-blue hover:text-kc-blue"
+                  >
+                    <Facebook className="h-3.5 w-3.5" />
+                  </a>
+                  <a
                     href={xShare}
                     target="_blank"
                     rel="noopener noreferrer"
@@ -398,6 +411,15 @@ const ArticleDetailPage: React.FC = () => {
                 <Link2 className="h-3.5 w-3.5" aria-hidden="true" />
                 Copy link
               </button>
+              <a
+                href={facebookShare}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 font-article-ui text-xs font-medium text-article-ink no-underline transition-colors hover:text-kc-blue"
+              >
+                <Facebook className="h-3.5 w-3.5" aria-hidden="true" />
+                Share on Facebook
+              </a>
               <a
                 href={xShare}
                 target="_blank"

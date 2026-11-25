@@ -541,10 +541,10 @@ export const articles: Article[] = [
     },
     publishedAt: "2026-11-20T09:00:00.000Z",
     cover: {
-      src: "/articles/covers/the-1968-experiment.jpeg",
-      alt: "A KC mentor standing with five students in blue Knowledge Center polos outdoors.",
+      src: "/articles/PXL_20250830_172918243.jpg",
+      alt: "Two smiling men shaking hands in front of a blue Knowledge Center banner, one in a navy polo shirt and one in a light blue suit with a red tie.",
       caption:
-        "Close mentorship is at the centre of the KC experience.",
+        "When people believe in a student's potential, that belief becomes a turning point.",
       credit: "Knowledge Center",
     },
     content: [
