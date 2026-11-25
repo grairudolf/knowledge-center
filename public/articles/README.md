@@ -112,7 +112,7 @@ as the avatar. Each has one cover and three in-body image slots:
 | Slug in `src/data/articles.ts` | Images used |
 | --- | --- |
 | `from-stem-olympiad-to-mit` | Cover: `cover.avif` (supplied, credited to Heterodox Academy). Inline: `inline/stem-olympiad-award.jpg`, `stem-scholars-celebration.jpeg`, `future-ready-stem-leaders.jpeg` |
-| `the-pygmalion-effect-and-the-power-of-belief` | Cover: `covers/the-1968-experiment.jpeg`. Inline: `inline/weekend-lecture-hall.jpeg`, `2.jpeg`, `kc-scholars-confidence.jpeg` |
+| `the-pygmalion-effect-and-the-power-of-belief` | Cover: `covers/the-1968-experiment.jpeg`. Inline: `2.jpeg`, `inline/kc-scholars-group.jpeg`, `kc-scholars-confidence.jpeg` |
 | `is-the-system-holding-them-back` | Cover: `Picture1.png`. Inline: `inline/traditional-classroom.jpg`, `hands-on-electronics.jpeg`, `student-project-exhibition.jpeg` |
 
 The three editorial posts now use `author.jpeg` as the byline avatar instead of

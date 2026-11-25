@@ -581,10 +581,10 @@ export const articles: Article[] = [
       { type: "paragraph", text: "What they discovered was revolutionary." },
       {
         type: "image",
-        src: "/articles/inline/weekend-lecture-hall.jpeg",
-        alt: "A packed lecture hall with students seated at wooden desks and an instructor standing at the front.",
+        src: "/articles/2.jpeg",
+        alt: "Three young people in Knowledge Center sweatshirts posing together in a studio portrait.",
         caption:
-          "The 1968 study began in an ordinary classroom — and asked an extraordinary question.",
+          "Belief in a student's potential changes what that student believes is possible.",
         credit: "Knowledge Center",
       },
       {
@@ -616,8 +616,8 @@ export const articles: Article[] = [
       { type: "paragraph", text: "While equally capable students missed out." },
       {
         type: "image",
-        src: "/articles/2.jpeg",
-        alt: "Three young people in Knowledge Center sweatshirts posing together in a studio portrait.",
+        src: "/articles/inline/kc-scholars-group.jpeg",
+        alt: "Six young people in Knowledge Center polos smiling together outdoors.",
         caption:
           "Attention, encouragement and mentorship are the practical forms that belief takes.",
         credit: "Knowledge Center",
