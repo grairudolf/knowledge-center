@@ -106,8 +106,8 @@ references: [
 ## Editorial posts ("KC stories")
 
 Three shorter, editorial pieces sit alongside the research notes. They are
-credited to **The KC editorial team**, using `authors/kc-editorial-team.png`
-as the avatar. Each has one cover and three in-body image slots:
+credited to **The KC editorial team**, using `author.jpeg` as the avatar. Each
+has one cover and three in-body image slots:
 
 | Slug in `src/data/articles.ts` | Images used |
 | --- | --- |
@@ -132,6 +132,11 @@ The body copy of these three pieces follows the wording of the source PDFs in
 `public/article 1.pdf`, `public/article 2.pdf` and `public/article 3.pdf`
 verbatim. Headings, lists and pull quotes come from the slides themselves;
 `**bold**` markup only adds emphasis and never changes the words.
+
+The MIT story's registration QR is the separately uploaded `public/qrcode.png`.
+It sits directly above the "Scan To Register" callout. The "Follow Us On Social
+Media" line links to the same official Facebook, X, LinkedIn and YouTube
+accounts used in the site footer.
 
 ## Link previews
 

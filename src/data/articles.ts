@@ -501,6 +501,13 @@ export const articles: Article[] = [
           "Therefore, we implore you to encourage all the science students in your network to sign up for STEM 2026 happening on **December 29th and 30th**. Besides the **1 million XAF in cash awards**, the transformation the STEM yields far outweighs any financial package. We are preparing a generation of scholars who will not only excel in the classroom but will thrive throughout life.",
       },
       {
+        type: "image",
+        src: "/qrcode.png",
+        alt: "QR code to register for the KC National STEM Olympiad 2026.",
+        caption: "Scan this code to register for STEM 2026.",
+        credit: "Knowledge Center",
+      },
+      {
         type: "callout",
         title: "Scan To Register — ELIGIBILITY",
         text:
@@ -512,7 +519,7 @@ export const articles: Article[] = [
           "Contact Us: **676-182-334**",
           "Visit Us: Head Office—Ndumbin Hall Building, Checkpoint Molyko, Buea",
           "www.kcedu.org",
-          "Follow Us On Social Media",
+          "Follow Us On Social Media: [Facebook](https://web.facebook.com/share/g/1YeC5UgLSP/), [X](https://x.com/KCCameroon), [LinkedIn](https://www.linkedin.com/company/knowledge-centercmr/), [YouTube](https://youtube.com/@knowledgecentercameroon-bz8dt?si=LVdBwRFkRBY2M79c)",
           "Knowledge Center, Cameroon",
         ],
       },
