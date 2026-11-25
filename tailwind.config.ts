@@ -18,15 +18,15 @@ export default {
 			}
 		},
 		extend: {
-			/* Typography System: Poppins everywhere, with weight doing the hierarchy work */
+			/* Typography System: Poppins headings, Montserrat body and UI text */
 			fontFamily: {
-				'sans': ['Poppins', 'system-ui', 'Segoe UI', 'sans-serif'],
+				'sans': ['Montserrat', 'system-ui', 'Segoe UI', 'sans-serif'],
 				'heading': ['Poppins', 'system-ui', 'Segoe UI', 'sans-serif'],
-				'body': ['Poppins', 'system-ui', 'Segoe UI', 'sans-serif'],
-				/* Articles share the same family; weights and italics create contrast */
+				'body': ['Montserrat', 'system-ui', 'Segoe UI', 'sans-serif'],
+				/* Articles use the same two families as the rest of the site */
 				'article-display': ['Poppins', 'system-ui', 'Segoe UI', 'sans-serif'],
-				'article-body': ['Poppins', 'system-ui', 'Segoe UI', 'sans-serif'],
-				'article-ui': ['Poppins', 'system-ui', 'Segoe UI', 'sans-serif'],
+				'article-body': ['Montserrat', 'system-ui', 'Segoe UI', 'sans-serif'],
+				'article-ui': ['Montserrat', 'system-ui', 'Segoe UI', 'sans-serif'],
 			},
 			fontSize: {
 				/* Semantic heading scale: 96/80/64/48/36/24/20/16/14/12px */

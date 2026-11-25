@@ -1,4 +1,14 @@
-/* Self-hosted Poppins webfont — regular through extra-bold weights */
+/* Self-hosted Montserrat and Poppins webfonts */
+@font-face {
+  font-family: 'Montserrat';
+  src: local('Montserrat'), local('Montserrat Regular'),
+       url('/fonts/Montserrat.woff2') format('woff2-variations'),
+       url('/fonts/Montserrat.woff2') format('woff2');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
 @font-face {
   font-family: 'Poppins';
   src: local('Poppins'), local('Poppins Regular'),
@@ -16,7 +26,7 @@
 /* ===================================
  * DESIGN SYSTEM & BRAND COLORS
  * Primary Blue (#2E3AF0 / 220 100% 45%), White (#FFFFFF), Black (#1A1A1A / 0 0% 10%)
- * Poppins: every surface — body, UI and headings, with weight for hierarchy
+ * Poppins: headings and display | Montserrat: body, UI and long-form text
  * =================================== */
 
 @layer base {
@@ -186,7 +196,7 @@
     @apply font-heading text-h6 font-semibold text-kc-blue;
   }
 
-  /* ✓ BODY TEXT: Poppins, consistent sizing */
+  /* ✓ BODY TEXT: Montserrat, consistent sizing */
   p {
     @apply text-body leading-relaxed text-kc-black;
   }

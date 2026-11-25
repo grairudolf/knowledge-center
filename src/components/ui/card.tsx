@@ -53,7 +53,7 @@ const CardTitle = React.forwardRef<
 ))
 CardTitle.displayName = "CardTitle"
 
-/** CardDescription: Muted text color, Poppins body font */
+/** CardDescription: Muted text color, Montserrat body font */
 const CardDescription = React.forwardRef<
   HTMLParagraphElement,
   React.HTMLAttributes<HTMLParagraphElement>

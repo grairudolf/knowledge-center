@@ -1,14 +1,14 @@
 /* ==========================================================================
    KC Articles — editorial design system
    --------------------------------------------------------------------------
-   Poppins is used across the whole site, including the journal. Weight and
-   italics do the work that a second family used to do:
+   The journal follows the rest of the site: Poppins for headlines and display,
+   Montserrat for body, long-form and interface copy.
 
      Display / headlines : Poppins 700–800
-     Body / long-form    : Poppins 400 (600 for emphasis, 700 for bold)
-     Meta / interface    : Poppins 500–600
+     Body / long-form    : Montserrat 400 (600 for emphasis, 700 for bold)
+     Meta / interface    : Montserrat 500–600
 
-   The self-hosted variable font is declared once in index.css.
+   Both self-hosted variable fonts are declared in index.css.
    ========================================================================== */
 
 .kc-articles {
@@ -22,8 +22,8 @@
   --kc-accent: hsl(var(--kc-blue));
   --kc-accent-dark: hsl(var(--kc-blue-dark));
   --kc-font-display: "Poppins", system-ui, -apple-system, "Segoe UI", sans-serif;
-  --kc-font-body: "Poppins", system-ui, -apple-system, "Segoe UI", sans-serif;
-  --kc-font-ui: "Poppins", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --kc-font-body: "Montserrat", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --kc-font-ui: "Montserrat", system-ui, -apple-system, "Segoe UI", sans-serif;
 
   background-color: var(--kc-paper);
   color: var(--kc-ink);
@@ -38,7 +38,7 @@
   color: var(--kc-ink);
 }
 
-/* Headings use Poppins weight for hierarchy instead of a second typeface. */
+/* Headings keep the Poppins display voice; body copy is Montserrat. */
 .kc-articles :where(h1, h2, h3, h4, h5, h6) {
   font-family: var(--kc-font-display);
   color: var(--kc-ink);

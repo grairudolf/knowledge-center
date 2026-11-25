@@ -171,7 +171,7 @@ const Navigation = () => {
             </div>
           </Link>
 
-          {/* Desktop Navigation: Animated sliding pill with Poppins text */}
+          {/* Desktop Navigation: Animated sliding pill with Montserrat text */}
           <div className="hidden lg:block relative">
             {/* Sliding pill container: dynamic equal columns */}
             <div
@@ -249,7 +249,7 @@ const Navigation = () => {
           </Button>
         </div>
 
-        {/* Mobile Menu: Poppins text, brand colors */}
+        {/* Mobile Menu: Montserrat text, brand colors */}
         {isMobileMenuOpen && (
           <div className="lg:hidden absolute top-full left-0 right-0 px-3 pb-3">
             <motion.div

@@ -1,13 +1,10 @@
-# Editorial webfonts
+# Self-hosted webfonts
 
-These fonts are used only by the KC Articles section (`/articles`).
+All font files are served locally, so the site does not depend on a third-party font CDN.
 
-- `Newsreader` — display and article headings (SIL Open Font License)
-- `Source Serif 4` — long-form article body (SIL Open Font License)
-- `Inter` — article metadata and interface labels (SIL Open Font License)
+- `Montserrat` — body, UI and long-form article copy (main site font, variable WOFF2)
+- `Poppins` — headings and display type across the site (variable WOFF2)
 
-They were downloaded from Google Fonts as latin-subset variable WOFF2 files so
-the journal does not depend on a third-party font CDN.
+`Newsreader`, `Source Serif 4` and `Inter` are no longer referenced by the stylesheets; they are left here in case the editorial serif treatment returns.
 
-The site's main Montserrat and Poppins fonts remain in this folder for the rest
-of the website.
+The `@font-face` rules live in `src/index.css`, and both active fonts are preloaded in `index.html`.
