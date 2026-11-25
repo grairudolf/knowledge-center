@@ -124,3 +124,19 @@ Every cover and inline slot is now filled. If you prefer a different photo,
 replace the file under the same name or update the `src` value in
 `src/data/articles.ts`. If a file is ever missing, the page shows a labelled
 placeholder frame instead of a broken image.
+
+The body copy of these three pieces follows the wording of the source PDFs in
+`public/article 1.pdf`, `public/article 2.pdf` and `public/article 3.pdf`
+verbatim. Headings, lists and pull quotes come from the slides themselves;
+`**bold**` markup only adds emphasis and never changes the words.
+
+## Link previews
+
+`vite-plugin-article-seo.ts` writes a pre-rendered HTML shell for every
+published article at build time. Each shell carries that article's own
+`og:image`, `twitter:image`, title, description, canonical URL and
+`BlogPosting` JSON-LD, so WhatsApp, Facebook, X and link unfurlers show the
+right cover even though they do not run JavaScript. The article index gets its
+own preview too. `vercel.json` keeps the existing SPA rewrite: Vercel serves
+the generated file before applying the rewrite. In development the plugin
+serves the same shell through the Vite middleware.

@@ -369,7 +369,7 @@ export const articles: Article[] = [
     slug: "from-stem-olympiad-to-mit",
     title: "From STEM Olympiad to MIT, USA",
     summary:
-      "A December competition in Cameroon has become a launchpad for young scientists at MIT, Stanford and beyond. This is what happens when students are given problems worth falling in love with.",
+      "A story about the unprecedented transformational impact of the KC National STEM Olympiad—The Nation’s most revolutionary education project.",
     category: "KC stories",
     tags: ["STEM Olympiad", "Scholar journeys", "Education", "Cameroon"],
     author: {
@@ -389,62 +389,33 @@ export const articles: Article[] = [
     },
     content: [
       {
-        type: "paragraph",
-        text:
-          "Every December, something extraordinary arrives in the lives of secondary and high school science students across Cameroon: the KC National STEM Olympiad, the country's largest youth education project.",
+        type: "callout",
+        title: "STEM OLYMPIAD 2026",
+        text: "Day One of the Daily **STEM STORY SERIES**",
       },
+      { type: "heading", level: 2, text: "EVERY DECEMBER" },
       {
         type: "paragraph",
         text:
-          "On the surface, it looks like a competition. Spend a little time with the students who have sat it, and a different picture emerges. For many of them, it is the first time classroom science stops being a set of equations to memorise and becomes a way of reading the world.",
+          "December is that time of the year when young secondary and high school science students across Cameroon witness a celestial visit from **the nation’s grandest youth education project**—The STEM National Olympiad.",
       },
-      { type: "heading", level: 2, text: "More than a competition" },
+      { type: "heading", level: 2, text: "UNRIVALED IMPACT" },
       {
         type: "paragraph",
         text:
-          "Unlike a traditional academic test, the Olympiad is built around carefully curated problems that ask students to think, connect and imagine. The questions take the theories learned in class and turn them into a living lens — one through which a young person can begin to interpret the world around them.",
+          "Unlike other Olympiads, the KC STEM Olympiad is **not just another traditional academic event**. It is an intrinsically exciting intellectual experience with carefully curated problems that transform classroom science theories and equations into a living lens through which young students interpret the world, discover their lifelong career aspirations, and **come to fall in love with science**.",
       },
+      { type: "heading", level: 2, text: "A SPARK OF A LIFETIME" },
       {
         type: "paragraph",
         text:
-          "That distinction matters. A conventional exam measures how much a student already knows on a particular day. The STEM Olympiad is designed to do something harder and more valuable: to spark curiosity and a lasting appetite for learning. Those two things are the engines behind almost every scientific contribution in history.",
+          "Contrary to traditional test systems where the focus is on measuring how much students know, the STEM Olympiad focuses on inspiring **a spirit of curiosity and a passion for lifelong learning**—the twin engines of every scientific contribution in the history of human civilization.",
       },
-      {
-        type: "image",
-        src: "/articles/inline/stem-olympiad-award.jpg",
-        alt: "A young student holding a large KC STEM Olympiad award cheque beside two adults under Knowledge Center banners.",
-        caption:
-          "An Olympiad laureate with an award — the recognition is real, but the confidence it builds lasts longer.",
-        credit: "Knowledge Center",
-      },
-      { type: "heading", level: 2, text: "A spark that becomes a direction" },
+      { type: "heading", level: 2, text: "PURPOSE DISCOVERY" },
       {
         type: "paragraph",
         text:
-          "The real magic of the Olympiad is what happens after the results are announced. It has become a yearly launchpad for career discovery, nudging students towards fields they may never have encountered in a Cameroonian classroom: quantum computing, aeronautical engineering, astrophysics and more.",
-      },
-      {
-        type: "paragraph",
-        text:
-          "Some of those students now study at universities such as MIT and UPenn. Others are building bold startups here at home and across the African continent. The Olympiad did not hand them a career. It gave them the confidence to go looking for one.",
-      },
-      {
-        type: "quote",
-        text:
-          "The KC STEM Olympiad was a uniquely inspiring experience that was indispensable in my applications for scholarships which consequently earned me admissions at Stanford and MIT. I would recommend the profound impact of the STEM — both from the computational and conceptual fronts — to anyone who is even remotely interested in science or the broader spectrum of STEM fields.",
-        attribution: "Kana Leo Keran",
-        role: "STEM 2022 laureate, now studying at MIT",
-      },
-      { type: "heading", level: 2, text: "Not an anomaly" },
-      {
-        type: "paragraph",
-        text:
-          "Leo is not a lucky exception. He is evidence of what the right educational experience can unlock. A KC STEM laureate now at MIT, he describes the Olympiad as “indispensable” in earning admission to both Stanford and MIT.",
-      },
-      {
-        type: "paragraph",
-        text:
-          "That word is worth sitting with. With deliberate investment in the right kind of stimulating education, we can raise many more young people like Leo — and, in doing so, shape a generation that expands what seems possible for Cameroon and for Africa.",
+          "The real magic? The KC STEM Olympiad has become a **yearly launchpad**—sparking career discovery for students now studying exotic fields like Quantum Computing, Aeronautical Engineering, and Astrophysics at top universities like MIT and UPenn, and powering innovators building bold startups both here at home and across the African continent.",
       },
       {
         type: "image",
@@ -454,27 +425,46 @@ export const articles: Article[] = [
           "Laureates celebrated at a KC event — proof of what the right educational experience can unlock.",
         credit: "Knowledge Center",
       },
-      { type: "heading", level: 2, text: "Cameroonians can compete globally" },
       {
-        type: "paragraph",
-        text:
-          "The Olympiad continues to inspire national representation in fields that once felt distant from Cameroonian classrooms — astronomy, astronautical engineering, neuroscience. Today, 27 national STEM scholars are studying at leading international universities including MIT, Harvard and Stanford on full scholarships.",
+        type: "heading",
+        level: 2,
+        text: "GATEWAY TO GLOBAL OPPORTUNITIES",
       },
       {
         type: "paragraph",
         text:
-          "Every one of those places began with a student who was given a problem to solve, a community that believed the problem was worth solving, and the chance to find out where that curiosity could lead.",
+          "STEM 2022 laureate, Kana Leo Keran, a current sophomore at MIT wrote in a passionate review of his STEM experience:",
       },
-      { type: "heading", level: 2, text: "The renaissance we are building" },
+      {
+        type: "quote",
+        text:
+          "The KC STEM Olympiad was a **uniquely inspiring experience** that was **indispensable in my applications for scholarships** which consequently earned me admissions at Stanford and MIT. I would recommend the profound impact of the STEM—both from the computational and conceptual fronts— to anyone who is even remotely interested in science or the broader spectrum of STEM fields.",
+        attribution: "Kana Leo Keran",
+        role: "STEM 2022 laureate, a current sophomore at MIT",
+      },
+      {
+        type: "image",
+        src: "/articles/inline/stem-olympiad-award.jpg",
+        alt: "A young student holding a large KC STEM Olympiad award cheque beside two adults under Knowledge Center banners.",
+        caption:
+          "An Olympiad laureate with an award — the recognition is real, but the confidence it builds lasts longer.",
+        credit: "Knowledge Center",
+      },
+      { type: "heading", level: 2, text: "NOT AN ANOMALY" },
       {
         type: "paragraph",
         text:
-          "We are proud of the work that goes into this project. Year after year, it prompts students to ask one of life's most profound questions: what career path do I want beyond high school, and how can my STEM experience and my KC community help me get there?",
+          "Leo isn’t luck—he’s **proof of what the right educational experience can unlock**. A KC STEM Olympiad laureate now studying at MIT, he credits the STEM experience as “indispensable” in earning admission to both Stanford and MIT. With intentional investment in the right stimulating education projects, we can raise many more Leos—and in doing so, shape a generation that will expand what is possible for Cameroon and Africa.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Cameroonians Too Can Compete Globally",
       },
       {
         type: "paragraph",
         text:
-          "Our dream is that Cameroon will not simply take part in Africa's STEM future, but lead it. By igniting a generation of relentlessly curious, driven young people who are unbound by old limits, we are raising leaders who will break ceilings, rewrite the African narrative and set a standard the next generation will not just inherit but exceed.",
+          "The STEM continues to inspire national representativeness in exotic global fields like Astronomy, Astronautical engineering, neuroscience with **27 national STEM scholars** currently studying in top international universities like MIT, Harvard, Stanford etc on full scholarships.",
       },
       {
         type: "image",
@@ -484,17 +474,39 @@ export const articles: Article[] = [
           "A community of scholars and mentors is the story behind every Olympiad result.",
         credit: "Knowledge Center",
       },
-      { type: "heading", level: 2, text: "Join the next cohort" },
+      { type: "heading", level: 2, text: "LEGACY" },
       {
         type: "paragraph",
         text:
-          "If you know a science student in Lower Sixth or Upper Sixth, encourage them to sign up. The cash awards are real, but the transformation is worth far more: students who excel in the classroom and carry that confidence into the rest of their lives.",
+          "Quite frankly, we are proud of the quality of the work we put in through this project—inspiring several students to answer one of life’s most profound questions: **what career path do I want to pursue beyond high school and how can my STEM certificate, STEM experience, and KC STEM community help me achieve it?**",
+      },
+      { type: "heading", level: 2, text: "THE RENAISSANCE" },
+      {
+        type: "paragraph",
+        text:
+          "Our dream? That Cameroon will not merely be a part of Africa’s STEM future—**it will lead it**. By igniting a generation of relentlessly curious, driven young students unbound by traditional limits, we are raising leaders who will break old ceilings, rewrite the African narrative, and set a new standard—one the next generation will not just inherit, but exceed.",
+      },
+      { type: "heading", level: 2, text: "JOIN US WRITE HISTORY" },
+      {
+        type: "paragraph",
+        text:
+          "Therefore, we implore you to encourage all the science students in your network to sign up for STEM 2026 happening on **December 29th and 30th**. Besides the **1 million XAF in cash awards**, the transformation the STEM yields far outweighs any financial package. We are preparing a generation of scholars who will not only excel in the classroom but will thrive throughout life.",
       },
       {
         type: "callout",
-        title: "STEM 2026",
+        title: "Scan To Register — ELIGIBILITY",
         text:
-          "The next KC National STEM Olympiad takes place on **29 and 30 December 2026**. It is open to science students in Lower Sixth and Upper Sixth, with **1 million XAF** in cash awards. Registration details are available at [kcedu.org](https://kcedu.org).",
+          "Are you a science student between Lowersixth and Uppersixth? Register today and be part of a historic group of rising national intellectual champions. Scan the QR code above to register.",
+      },
+      {
+        type: "list",
+        items: [
+          "Contact Us: **676-182-334**",
+          "Visit Us: Head Office—Ndumbin Hall Building, Checkpoint Molyko, Buea",
+          "www.kcedu.org",
+          "Follow Us On Social Media",
+          "Knowledge Center, Cameroon",
+        ],
       },
     ],
     references: [
@@ -509,7 +521,7 @@ export const articles: Article[] = [
     slug: "the-pygmalion-effect-and-the-power-of-belief",
     title: "The 1968 Experiment",
     summary:
-      "A 1968 classroom experiment suggested that expectation alone can change a student's trajectory. At KC, that idea is the starting point for how we mentor a generation.",
+      "And how it is inspiring us to build Africa’s most consequential education system.",
     category: "KC stories",
     tags: ["Mentorship", "Mindset", "Education", "Pygmalion effect"],
     author: {
@@ -531,29 +543,34 @@ export const articles: Article[] = [
       {
         type: "paragraph",
         text:
-          "In 1968, psychologists ran an experiment in a school that appeared to be about a special test. In reality, it was about something far more powerful: the quiet force a teacher's expectation exerts on a learner's future.",
+          "In 1968, psychologists ran a critical experiment on some students. And it revealed a secret force that powerfully shapes any learner’s future. It is **the ONE thing that can make or break students’ dreams**.",
       },
       {
         type: "paragraph",
         text:
-          "For the experiment to mean anything, the teachers had to be kept in the dark about its true purpose. What they were told was simple enough.",
-      },
-      { type: "heading", level: 2, text: "The experiment" },
-      {
-        type: "paragraph",
-        text:
-          "The researchers told classroom teachers that, based on the results of a special test, certain students were likely to show extraordinary growth that year. These selected students, they were told, would become “academic bloomers” and would make unparalleled improvements in learning.",
+          "However, for the experiment to validate its purpose, its true intent had to be kept a secret from teachers.",
       },
       {
         type: "paragraph",
         text:
-          "There was no test. The students had been picked at random. The teachers did not know that.",
+          "So the psychologists told the classroom teachers that based upon the results of a special test, certain students would show incredible growth that year. They said these selected students would become “**academic bloomers**” and would show unparalleled academic improvements in learning.",
       },
       {
         type: "paragraph",
         text:
-          "The researchers were investigating one question: could teacher expectations alone transform student performance? What they reported became one of the most discussed findings in educational psychology.",
+          "**But there was no test. It was a hoax.** The students were picked completely at random.",
       },
+      {
+        type: "paragraph",
+        text: "The experiment wanted to investigate just one question:",
+      },
+      {
+        type: "callout",
+        title: "The question",
+        text:
+          "**Could teacher expectations alone transform student performance?**",
+      },
+      { type: "paragraph", text: "What they discovered was revolutionary." },
       {
         type: "image",
         src: "/articles/inline/weekend-lecture-hall.jpeg",
@@ -562,52 +579,33 @@ export const articles: Article[] = [
           "The 1968 study began in an ordinary classroom — and asked an extraordinary question.",
         credit: "Knowledge Center",
       },
-      { type: "heading", level: 2, text: "What the researchers reported" },
       {
         type: "paragraph",
-        text:
-          "The randomly selected students achieved striking gains. In the study's reporting, their measures improved across three areas:",
+        text: "These randomly selected students achieved extraordinary results:",
       },
       {
         type: "list",
         items: [
-          "**Creative thinking:** up by seven points.",
-          "**Overall IQ:** up by four points.",
-          "**Ability to articulate a coherent lifetime ambition:** up by two points.",
+          "Their creative thinking capacity increased by **7 points**.",
+          "Their overall IQ jumped by **4 points**.",
+          "Their ability to articulate a coherent lifetime ambition improved by **2**.",
         ],
       },
-      {
-        type: "callout",
-        title: "A note on the evidence",
-        text:
-          "The size and durability of these gains have been debated by later researchers. What has endured is the central insight: expectations shape the way teachers behave, and the way students come to see themselves.",
-      },
-      { type: "heading", level: 2, text: "The plot twist" },
+      { type: "paragraph", text: "**But here is the real plot twist...**" },
       {
         type: "paragraph",
-        text:
-          "The students had not been given a different curriculum or a secret set of lessons. Something quieter was happening. Without realising it, the teachers began to give the selected students something equally capable classmates missed out on.",
+        text: "These teachers unknowingly gave the selected students:",
       },
       {
         type: "list",
         items: [
-          "Extra attention",
-          "Consistent encouragement",
-          "Close mentorship",
-          "More learning opportunities",
+          "**Extra attention**",
+          "**Consistent encouragement**",
+          "**Close mentorship**",
+          "**More learning opportunities**",
         ],
       },
-      {
-        type: "paragraph",
-        text:
-          "Belief, in other words, is not just a feeling. It changes behaviour. And behaviour, repeated over months and years, changes what a child believes is possible for them.",
-      },
-      {
-        type: "quote",
-        text:
-          "A child's success isn't entirely down to their intelligence alone. It is vastly affected by whether their teacher believes in their potential.",
-        attribution: "The lesson of the Pygmalion Effect",
-      },
+      { type: "paragraph", text: "While equally capable students missed out." },
       {
         type: "image",
         src: "/articles/inline/kc-scholars-group.jpeg",
@@ -616,27 +614,47 @@ export const articles: Article[] = [
           "Attention, encouragement and mentorship are the practical forms that belief takes.",
         credit: "Knowledge Center",
       },
-      { type: "heading", level: 2, text: "When expectations are low" },
       {
         type: "paragraph",
         text:
-          "The same mechanism works in the other direction. When students cannot feel that their teachers believe in them, low expectations become a self-fulfilling prophecy: they perform below their potential, their self-confidence crumbles and their sense of purpose becomes fuzzy.",
+          "This shows that a child’s success isn’t entirely down to their intelligence alone. It is **vastly affected by whether their teacher believes in their potential or not**.",
       },
       {
         type: "paragraph",
         text:
-          "These are not small consequences. Unconscious perceptions can leave young people with no real sense of self-worth — and, with that, no real ambition to pursue.",
+          "This self-fulfilling prophecy, shapes millions of futures. It has a special name: **the Pygmalion Effect**.",
       },
-      { type: "heading", level: 2, text: "Building a culture of belief at KC" },
+      { type: "heading", level: 2, text: "When teachers believe in students:" },
+      {
+        type: "list",
+        items: [
+          "They are inspired to develop a clear sense of career purpose in life.",
+          "They fall in love with learning and continuously re-inventing themselves.",
+          "**Their academic outcomes soar.**",
+        ],
+      },
       {
         type: "paragraph",
         text:
-          "At Knowledge Center, we are not content with identifying the problem. We are building the conditions that answer it: close and diligent mentorship, mindset training, and a scholarly community rippling with support and shared positivity.",
+          "And what happens when teachers focus only on covering the syllabus?",
       },
       {
         type: "paragraph",
         text:
-          "The aim is a learner who feels capable of reinventing themselves — confident, resourceful and unstoppable. Every child deserves the chance to discover their own limitless potential, and that chance begins with the people around them refusing to settle for the average they were handed.",
+          "**When students can not feel that their teachers believe in them, low expectations become self-fulfilling prophecy:**",
+      },
+      {
+        type: "list",
+        items: [
+          "They perform below their potential.",
+          "Their self-confidence crumbles.",
+          "Their sense of purpose becomes fuzzy.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text:
+          "These are dismal consequences from unconscious perceptions that are creating students with no sense of self-worth. Hence with no real ambitions in life.",
       },
       {
         type: "image",
@@ -646,21 +664,44 @@ export const articles: Article[] = [
           "Confident, capable learners — the kind of students KC is working to nurture.",
         credit: "Knowledge Center",
       },
-      { type: "heading", level: 2, text: "The 2040 dream" },
       {
         type: "paragraph",
-        text:
-          "By 2040, we dream of having empowered more than 1,000 global icons leading enterprises across the African continent — the new drivers of Africa's renaissance, from technology to space exploration.",
+        text: "**The 1968 experiment exposed a critical flaw.**",
       },
       {
         type: "paragraph",
         text:
-          "It is an ambitious vision: an ambitious, gritty and highly motivated nexus of young leaders. It starts in ordinary classrooms, with the extraordinary decision to believe in a child before the evidence arrives.",
+          "But at KC, we are not just identifying problems, **we are building solutions**.",
       },
       {
         type: "paragraph",
         text:
-          "If that is a future you want to help build, connect with us. Together, we can give more students a genuine chance on the global stage.",
+          "Through close diligent mentorship, mindset trainings, and a strong scholarly community rippling with support and viral positivity, we are nurturing **confident, capable, and unstoppable learners**.",
+      },
+      {
+        type: "paragraph",
+        text:
+          "We strongly believe every child deserves to discover their limitless potential and we are committed to building one of the most liberating scholarly communities across the continent, in KC, where kids truly feel unstoppable.",
+      },
+      {
+        type: "paragraph",
+        text:
+          "By 2040, we dream to have empowered over **1,000 global icons** leading diverse enterprises across the African continent as they become the new drivers of Africa’s renaissance—from Tech to space exploration.",
+      },
+      {
+        type: "paragraph",
+        text:
+          "We want to build one of the most ambitious, gritty, and highly motivated nexus of young leaders to ever walk the face of the earth.",
+      },
+      {
+        type: "paragraph",
+        text:
+          "Thank you for reading this far. If you resonate with our dreams for the next generation of African stars, repost this and consider connecting with us.",
+      },
+      {
+        type: "paragraph",
+        text:
+          "Together, let’s transform education and give our students a competing chance on the global stage.",
       },
     ],
   },
@@ -668,7 +709,7 @@ export const articles: Article[] = [
     slug: "is-the-system-holding-them-back",
     title: "The School System Has Expired — And Here Is Proof",
     summary:
-      "Kairan Quazi's path from a third-grade classroom to SpaceX asks a harder question: how many young people are being held back by a model built for the 1800s?",
+      "The future of education is digitalized, personalized, AI-assisted, conceptual learning with insightful teachers as life mentors.",
     category: "KC stories",
     tags: ["Future of learning", "AI", "Education", "Mentorship"],
     author: {
@@ -690,32 +731,43 @@ export const articles: Article[] = [
       {
         type: "paragraph",
         text:
-          "While other 14-year-olds are working through algebra homework, Kairan Quazi was working for Elon Musk. Not because he was lucky, but because his parents rejected a story that the education system has told generations of families.",
+          "While other 14-year-olds are busy making x the subject of the formula, **this kid works for Elon Musk**. Not because he's lucky, but because his parents rejected a massive lie perpetuated by the education system.",
       },
       {
         type: "paragraph",
         text:
-          "The story is that there is one right pace, one right path and one standard measure of a child's ability. Kairan's parents did not accept it.",
-      },
-      { type: "heading", level: 2, text: "The child who would not fit the average" },
-      {
-        type: "paragraph",
-        text:
-          "Kairan told his third-grade teacher that the lessons were “insulting”. He was already reading at an elite college level. The classroom had nothing left to offer him, and staying there would have meant learning to be bored.",
+          "Kairan Quazi told his 3rd grade(class 4) teacher the lessons were \"insulting.\" He was already an elite college-level reader.",
       },
       {
         type: "list",
-        ordered: true,
         items: [
-          "**By age nine**, he had enrolled in college.",
-          "**By 13**, he had landed a paid internship in Silicon Valley, building AI tools.",
-          "**At 14**, Starlink — Elon Musk's satellite company — hired him, making him the youngest employee in SpaceX history.",
+          "**By 9**, he enrolled in college.",
+          "**By 13**, he landed a paid Silicon Valley internship building AI tools.",
+          "**At 14**, Elon Musk's Starlink hired him making him the youngest employee in SpaceX history.",
+        ],
+      },
+      { type: "paragraph", text: "Kairan had:" },
+      {
+        type: "list",
+        items: [
+          "No traditional high school.",
+          "No colorful certificates with straight A’s.",
+          "No gold star nonsense.",
         ],
       },
       {
         type: "paragraph",
         text:
-          "No traditional high school. No colourful certificates with straight As. No gold stars. Kairan did not thrive because of school. He thrived because his parents pulled him out and offered him something better.",
+          "The truth is that Kairan didn't thrive because of school. **He thrived because his parents pulled him out to offer him something better.**",
+      },
+      {
+        type: "paragraph",
+        text: "They understood something most parents don’t:",
+      },
+      {
+        type: "paragraph",
+        text:
+          "The school system is **a game of averages**—the most gifted are under-stimulated and bored; and the slower ones are disillusioned and left behind. It is a mechanism designed to do mass procession of students for factory-line employment. The problem is, we are no longer in the 1800’s; we are in 2025. The economy and the skills necessary to thrive in it have evolved drastically—but the school system remains today as an ancient relic from antiquity.",
       },
       {
         type: "image",
@@ -725,45 +777,59 @@ export const articles: Article[] = [
           "One pace, one lesson, one measure of ability — the model Kairan's parents walked away from.",
         credit: "Knowledge Center",
       },
-      { type: "heading", level: 2, text: "A system built for averages" },
       {
         type: "paragraph",
-        text:
-          "His parents understood something many people do not: the school system is a game of averages. The most gifted students are under-stimulated and bored; those who learn more slowly are disillusioned and left behind. The mechanism was designed to process large numbers of students for factory-line employment.",
+        text: "They rejected the system's favorite line:",
       },
-      {
-        type: "paragraph",
-        text:
-          "The problem is that we are no longer in the 1800s. The economy and the skills needed to thrive in it have changed drastically, while the structure of schooling has remained remarkably close to its industrial-age original.",
-      },
+      { type: "quote", text: "We don't do exceptions." },
+      { type: "paragraph", text: "Translation?" },
       {
         type: "quote",
-        text: "We don't do exceptions.",
-        attribution: "A line many parents know too well",
+        text: "We know your son is different, but we'd rather he be average.",
       },
       {
         type: "paragraph",
         text:
-          "Translated, that line often means: we know your child is different, but we would rather they were average. How many young people are labelled “average” simply because they were never given a real chance to be anything else? Not lazy. Not behind. Just uninspired.",
+          "How many kids are labeled \"average\" because they're stuck in a system that never gave them a real chance?",
       },
-      { type: "heading", level: 2, text: "The tools have changed" },
+      { type: "paragraph", text: "**Not lazy. Not behind. Just... uninspired.**" },
       {
         type: "paragraph",
         text:
-          "Today, a child with curiosity and a connection can do things that would have been unthinkable a generation ago — and can do them at their own pace, without waiting for the rest of the class.",
+          "Because nothing in the classroom feels contemporarily relevant or challenging.",
       },
+      {
+        type: "paragraph",
+        text:
+          "And when students ask how memorizing the quadratic formula will help prepare them for meaningful living in the 21st century economy, teachers say “trust me, it will come in handy.” Except it never does.",
+      },
+      { type: "paragraph", text: "The old model still assumes:" },
       {
         type: "list",
         items: [
-          "Get essay feedback with ChatGPT.",
-          "Learn calculus with a free tutor such as Khan Academy.",
-          "Build a personalised science curriculum with Perplexity.",
+          "Everyone learns at the same pace",
+          "Success means compliance",
+          "Creativity and curiosity are bad habits",
         ],
       },
       {
         type: "paragraph",
         text:
-          "This is not only for prodigies. Students everywhere are using these tools to reduce homework anxiety, learn faster in fewer hours and regain confidence in subjects they once hated. The tools are here. What has been missing is permission — permission to question the old rules about how teaching and learning are supposed to work.",
+          "But the internet and **AI** are breaking that model. We have come a long way from the industrial age in the 1800’s.",
+      },
+      { type: "paragraph", text: "Today, any child can:" },
+      {
+        type: "list",
+        items: [
+          "Get essay feedback using ChatGPT.",
+          "Learn calculus with a free tutor like Khan Academy.",
+          "Build their own science curriculum with Perplexity.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text:
+          "All at their own pace without waiting for the rest of the class. **This doesn't just work for prodigies. It works for all learners.**",
       },
       {
         type: "image",
@@ -773,22 +839,58 @@ export const articles: Article[] = [
           "Hands-on projects let young people learn by building and testing, not just recalling.",
         credit: "Knowledge Center",
       },
-      { type: "heading", level: 2, text: "What learning should look like" },
+      { type: "paragraph", text: "Students everywhere are using AI to help:" },
       {
-        type: "paragraph",
-        text:
-          "The future of education is not 50 children sitting in rows memorising facts. It is not asking students to beat Google and ChatGPT in recall-heavy exams — a race no human can win.",
+        type: "list",
+        items: [
+          "Reduce homework anxiety",
+          "Learn faster with fewer hours",
+          "Regain confidence in subjects they hated",
+        ],
       },
       {
         type: "paragraph",
         text:
-          "It is personalised, conceptual and AI-assisted learning, guided by insightful teachers who act as life mentors rather than simply deliverers of content. This is not a distant ideal. It is already being practised at KC.",
+          "The tools are here. The only thing missing is permission. Permission to break the, now obsolete, school rules on how teaching and learning should be done.",
       },
       {
-        type: "callout",
-        title: "Our work at KC",
+        type: "paragraph",
         text:
-          "We are not polishing an outdated model — we are building a new one: **AI-powered learning**, deep conceptual mastery, mentors who widen horizons, and a curriculum designed for the world our students will live in as adults.",
+          "Permission to ask: \"What if traditional school isn't the gold standard anymore?\"",
+      },
+      {
+        type: "paragraph",
+        text:
+          "To stop forcing our talents to fit a system that hasn't changed since the 1800s.",
+      },
+      {
+        type: "paragraph",
+        text: "**Yes, Kairan is a one-in-a-million genius.**",
+      },
+      {
+        type: "paragraph",
+        text:
+          "But he's also proof of what's possible when kids have better tools, great mentorship, quality exposure, and higher expectations.",
+      },
+      {
+        type: "paragraph",
+        text:
+          "How many more children just need the same opportunity to be put in **a system that stretches them instead of forcing them to fit-in**?",
+      },
+      {
+        type: "paragraph",
+        text:
+          "The future of education isn't 50 kids in rows memorizing facts.",
+      },
+      {
+        type: "paragraph",
+        text:
+          "It's not asking kids to compete with google and chatgpt through recall-heavy exams—it's a race no human can ever win.",
+      },
+      {
+        type: "paragraph",
+        text:
+          "The future of education is digitalized, personalized, **AI-assisted, conceptual learning** with insightful teachers as life mentors. And we are already implementing all for our scholars at KC.",
       },
       {
         type: "image",
@@ -798,16 +900,35 @@ export const articles: Article[] = [
           "Better tools and mentors who stretch them — the opportunity more students need.",
         credit: "Knowledge Center",
       },
-      { type: "heading", level: 2, text: "A better question" },
       {
         type: "paragraph",
         text:
-          "Yes, Kairan is a one-in-a-million genius. But he is also proof of what becomes possible when children are given better tools, strong mentorship, quality exposure and higher expectations. How many more young people need a system that stretches them instead of forcing them to fit in?",
+          "If your child is bored, anxious, or falling behind, maybe they're not the problem.",
+      },
+      { type: "paragraph", text: "**Maybe the system is.**" },
+      {
+        type: "paragraph",
+        text: "Time to stop asking, \"Is my kid smart?\"",
       },
       {
         type: "paragraph",
         text:
-          "If your child is bored, anxious or falling behind, maybe they are not the problem. Maybe the system is. It is time to stop asking whether a child is smart, and start asking whether the system is holding them back.",
+          "**Start asking: \"Is the system holding them back?\"**",
+      },
+      {
+        type: "paragraph",
+        text:
+          "This is why our work at Knowledge Center(KC) is both crucial and urgent.",
+      },
+      {
+        type: "paragraph",
+        text:
+          "At KC, we’re not polishing an outdated model—we’re building a new one: **AI-powered learning**, deep conceptual mastery, mentors who expand their horizons, and a KC curriculum that makes sense for the world they will live in as adults—not the one that has passed.",
+      },
+      {
+        type: "paragraph",
+        text:
+          "The future belongs to students who are prepared for it. KC is where that preparation begins.",
       },
     ],
   },
