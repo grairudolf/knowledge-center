@@ -388,11 +388,6 @@ export const articles: Article[] = [
       credit: "Heterodox Academy",
     },
     content: [
-      {
-        type: "callout",
-        title: "STEM OLYMPIAD 2026",
-        text: "Day One of the Daily **STEM STORY SERIES**",
-      },
       { type: "heading", level: 2, text: "EVERY DECEMBER" },
       {
         type: "paragraph",
